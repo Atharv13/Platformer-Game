@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1420135851778676}
+  m_IsPrefabAsset: 1
+--- !u!1 &1420135851778676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4095022631860750}
+  - component: {fileID: 114646335305079792}
+  - component: {fileID: 61410378907972142}
+  m_Layer: 0
+  m_Name: audiomanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4095022631860750
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420135851778676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61410378907972142
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420135851778676}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 58.59727, y: 3.2278166}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.988472, y: 0.1971147}
+  m_EdgeRadius: 0
+--- !u!114 &114646335305079792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420135851778676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef53016a72d433d4b8625120fb02c440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: boona_laugh
+    clip: {fileID: 8300000, guid: 3ef010428fcc4df42890ec185eeeb15d, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: cash
+    clip: {fileID: 8300000, guid: f7200c01e41bd6c4f807a01a2e8ef4c3, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: boona_bye
+    clip: {fileID: 8300000, guid: 91e2e35c06f0a4143bca5a3e8fd20e08, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: damage
+    clip: {fileID: 8300000, guid: fb8e8d15dc0d1f140b6aa5de27577e58, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: heal
+    clip: {fileID: 8300000, guid: 768bfa284f5925f41ba46eb44d757a40, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: theme
+    clip: {fileID: 8300000, guid: 4b8ad0bc0cd7c7e4990e964ba118e310, type: 3}
+    volume: 0.15
+    loop: 1
+    source: {fileID: 0}
+  - name: wasted
+    clip: {fileID: 8300000, guid: 8f6d794a701f96548ae0e0562e5a0268, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: respawn
+    clip: {fileID: 8300000, guid: 1ba8aab746728f54ebb80321f0478c4a, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: win
+    clip: {fileID: 8300000, guid: 448a57709a422934d8af577f66f2b428, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: end
+    clip: {fileID: 8300000, guid: 632ee1d470aba9b4bb01f1feb918c3fc, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: humhai
+    clip: {fileID: 8300000, guid: 1c25434507f426b42ba12d3914163768, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: iitaalap
+    clip: {fileID: 8300000, guid: 9cca9850599f8ab4d9c13aab2be1aab4, type: 3}
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}

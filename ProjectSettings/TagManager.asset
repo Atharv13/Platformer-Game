@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Collectable
+  - Ground
+  - Enemy
+  - Enemies
+  - boona
+  - raita
+  - rockbottom
+  - finalfalg
+  - tp
+  - way1
+  - way2
+  - book
+  - flyingbook
+  - musicdisc
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - Ground
+  - player
+  - Enemy
+  - 
+  - stomper
+  - spikes
+  - hurtbox
+  - tp
+  - book
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: back
+    uniqueID: 1904754905
+    locked: 0
+  - name: parralax
+    uniqueID: 2497991809
+    locked: 0
+  - name: front
+    uniqueID: 3646902937
+    locked: 0
+  - name: ultrafront
+    uniqueID: 749952955
+    locked: 0
+  - name: ui
+    uniqueID: 3981203269
+    locked: 0
